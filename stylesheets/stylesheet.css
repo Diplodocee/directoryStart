@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 900px;
   min-height: 800px;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
