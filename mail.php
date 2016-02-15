@@ -1,5 +1,5 @@
 <?php
-$to      = 'ludwa.borra@gmail.com, $_POST['email']'; 
+$to      = 'ludwa.borra@gmail.com'; 
 $subject = 'Deliverance database entry';
 $title = $_POST['title'];
 $artist = $_POST['artist'];
@@ -19,6 +19,4 @@ $headers = 'From: ' . 'ludwa.borra@gmail.com' . "\r\n" .
 
 mail($to, $subject, $message, $headers);
 
-echo "Thank you for your submission!<br />"; 
-include 'success.php';
 ?>
